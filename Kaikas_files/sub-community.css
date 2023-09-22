@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+/*
+ * File       : sub-community.css
+ * Author     : STUDIO-JT (MINYEO)
+ * Guideline  : JTstyle.2.0
+ *
+ * Dependency : css/reset.css
+ *              css/jt-strap.css
+ *
+ * SUMMARY:
+ * 01) LAYOUT
+ */
+
+
+
+/* **************************************** *
+ * LAYOUT
+ * **************************************** */
+body.page-template-community .article__scene-model { width: 1060rem; height: 1060rem; top: -209rem; right: -360rem; transform: scale(0.96) rotate(10deg); }
+
+/* CARD */
+.community-card-list { display: grid; grid-template-columns: repeat(2, 1fr); gap: 36rem; }
+.community-card-list__item { border: 1rem solid var(--color-base-line); border-radius: 20rem; }
+.community-card-list__link { display: flex; justify-content: flex-start; align-items: center; gap: 22rem; padding: 39rem 45rem; }
+
+.community-card-list__icon { flex-shrink: 0; flex-basis: 52rem; }
+.community-card-list__icon .jt-icon { width: 52rem; display: block; }
+.community-card-list__icon .jt-icon svg path { fill: #bbb; }
+
+.community-card-list--linkedin .community-card-list__icon .jt-icon { width: 42rem; margin-left: 4rem; }
+
+.community-card-list__text > p { color: var(--color-base); margin-top: 8rem; }
+.community-card-list__text > b { display: block; color: var(--color-base); transition: color .3s; }
+.community-card-list__text > b > .jt-icon { width: 10rem; display: inline-block; vertical-align: middle; margin-left: 1rem; position: relative; top: -4rem; }
+.community-card-list__text > b > .jt-icon svg path { transition: fill .3s; }
+
+html.desktop .community-card-list__link:hover .community-card-list__text > b { color: var(--color-primary); }
+html.desktop .community-card-list__link:hover .community-card-list__text > b > .jt-icon svg path { fill: var(--color-primary); }

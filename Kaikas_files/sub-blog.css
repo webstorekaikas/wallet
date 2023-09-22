@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+/*
+ * File       : sub-blog.css
+ * Author     : STUDIO-JT (KMS)
+ * Guideline  : JTstyle.2.0
+ *
+ * Dependency : css/reset.css
+ *              css/jt-strap.css
+ *
+ * SUMMARY:
+ * 01) LAYOUT
+ * 02) HIGHLIGHT
+ * 03) INSIGHT
+ */
+
+
+
+/* **************************************** *
+ * LAYOUT
+ * **************************************** */
+body.page-template-blog .article__scene-model { width: 641rem; height: 768rem; }
+
+
+
+/* **************************************** *
+ * HIGHLIGHT
+ * **************************************** */
+.blog-highlight__card { display: flex; flex-wrap: nowrap; padding: 40rem 0; border: solid var(--color-base-line); border-width: 1rem 0; }
+.blog-highlight__link { display: block; }
+
+.blog-highlight__thumb { width: 583rem; }
+.blog-highlight__thumb .jt-lazyload { padding-top: 52.31%; }
+
+.blog-highlight__text { width: calc(100% - 583rem); }
+.blog-highlight__text .blog-highlight__link { padding: 0 40rem; color: inherit; }
+.blog-highlight__text .jt-list-meta { margin-top: 32rem; padding: 0 40rem; }
+.blog-highlight__title { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; text-overflow: ellipsis; overflow: hidden; color: var(--color-base); transition: color .3s; }
+.blog-highlight__desc { margin-top: 16rem; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; text-overflow: ellipsis; overflow: hidden; color: var(--color-base); }
+html.desktop .blog-highlight__link:hover .blog-highlight__title { color: var(--color-primary); }
+
+
+
+/* **************************************** *
+ * INSIGHT
+ * **************************************** */
+.blog-insight.page-section { background: rgba(17, 17, 17, 0.6); }
+
+.blog-insight__list > ul { display: flex; flex-wrap: wrap; align-items: stretch; justify-content: center; gap: 36rem; }
+.blog-insight__list > ul > li { width: 376rem; position: relative; background: var(--color-base-bg); }
+
+.blog-insight__link { display: block; color: inherit; }
+
+.blog-insight__thumb { display: block; }
+.blog-insight__thumb > .jt-lazyload { padding-top: 51.86%; }
+
+.blog-insight__content { padding: 40rem; position: relative; }
+.blog-insight__title { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; text-overflow: ellipsis; overflow: hidden; color: var(--color-base); transition: color .3s; }
+.blog-insight__date { display: block; margin-top: 24rem; }
+.blog-insight__content .jt-icon { width: 10rem; position: absolute; right: 40rem; bottom: 42rem; }
+
+html.desktop .blog-insight__link:hover .blog-insight__title { color: var(--color-primary); }

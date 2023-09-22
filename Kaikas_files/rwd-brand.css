@@ -1,0 +1,120 @@
+@charset "utf-8";
+
+/*
+ * File       : rwd-brand.css
+ * Author     : STUDIO-JT (KMS)
+ * Guideline  : JTstyle.2.0
+ * Dependency : css/reset.css
+ *              css/jt-strap.css
+ *
+ * SUMMARY:
+ * 01) 1560px
+ * 02) 1200px
+ * 03) 1023px
+ * 04) 860px
+ * 05) 540px
+ */
+
+
+
+/* **************************************** *
+ * 1560px
+ * **************************************** */
+@media (max-width: 1560px) {
+
+    /* SECTION */
+    .brand-section + .brand-section { margin-top: 140rem; }
+
+}
+
+
+
+/* **************************************** *
+ * 1200px
+ * **************************************** */
+@media (max-width: 1200px) {
+
+    /* SECTION */
+    .brand-section + .brand-section { margin-top: 120rem; }
+
+    /* ASSETS */
+    .brand-assets__list > li { padding: 32rem; }
+    .brand-assets__list .brand-section__picture { margin-top: 27rem; margin-bottom: 19rem; }
+
+}
+
+
+
+/* **************************************** *
+ * 1023px
+ * **************************************** */
+@media (max-width: 1023px) {
+
+    /* ASSETS */
+    .brand-assets__download .jt-btn__basic .jt-btn__basic-icon { top: -1rem; }
+
+}
+
+
+
+/* **************************************** *
+ * 860px
+ * **************************************** */
+@media (max-width: 860px) {
+
+    /* LAYOUT */
+    body.page-template-brand .article__visual { display: none; }
+
+    /* SECTION */
+    .brand-section + .brand-section { margin-top: 100rem; }
+
+    /* ASSETS */
+    .brand-assets__list > li { padding: 28rem; }
+    .brand-assets__list .brand-section__picture { margin-top: 22rem; margin-bottom: 16rem; }
+    .brand-assets__link { margin-bottom: -6rem; }
+    
+    html.ios .brand-assets__download .jt-btn__basic .jt-btn__basic-icon { top: 0; }
+
+}
+
+
+
+/* **************************************** *
+ * 540px
+ * **************************************** */
+@media (max-width: 540px) {
+
+    /* SECTION */
+    .brand-section + .brand-section { margin-top: 82rem; }
+
+    /* COMPONENT */
+    .brand-section h2 { margin-bottom: 12rem; }
+    .brand-section h3 { margin-top: 32rem; margin-bottom: 12rem; }
+    .brand-section .brand-section__picture + h3 { margin-top: 45rem; }
+    .brand-section h4 { margin-bottom: 12rem; }
+
+    .brand-section__picture { margin-top: 12rem; margin-bottom: 32rem; }
+    .brand-section__picture .jt-lazyload { border-radius: 12rem; }
+
+    /* BRANDSYSTEM */
+    .brand-system__example { gap: 32rem 14rem; }
+    .brand-system__example p { margin-top: 10rem; }
+    .brand-system__example .brand-section__picture .jt-lazyload { border-radius: 8rem; }
+    .brand-system__example .jt-icon { width: 18rem; height: 18rem; left: 8rem; bottom: 8rem; }
+
+    /* COLORSYSTEM */
+    .brand-colorsystem__palette { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32rem 14rem; }
+    .brand-colorsystem__palette > li:first-child { grid-column: 1 / span 2; }
+    .brand-colorsystem__palette b { margin-top: 10rem; }
+    .brand-colorsystem__palette p { margin-top: 5rem; }
+
+    /* ASSETS */
+    .brand-assets__list { gap: 14rem; margin-top: 32rem; }
+    .brand-assets__list > li { padding: 20rem 16rem 24rem; border-radius: 8rem; }
+    .brand-assets__list .brand-section__picture { margin-top: 12rem; margin-bottom: 9rem; }
+    .brand-assets__link { margin-left: -5rem; margin-right: -5rem; }
+    .brand-assets__link .jt-btn__underline { padding-left: 5rem; padding-right: 5rem; }
+
+    .brand-assets__download { margin-top: 32rem; }
+
+}

@@ -1,0 +1,10 @@
+:root {
+    --color-base: #fff;
+    --color-base-bg: #252525;
+    --color-base-line: rgba(255,255,255,0.2);
+    --color-primary: #ff2f00;
+    --color-secondary: #FF6700;
+    --font-primary: 'Pretendard', sans-serif;
+    --font-secondary: 'Outfit', 'Pretendard', sans-serif;
+    --letter-spacing: 0em;
+}

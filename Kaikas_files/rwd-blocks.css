@@ -1,0 +1,255 @@
+@charset "utf-8";
+
+/*
+ * File       : rwd-blocks.css
+ * Author     : STUDIO-JT (KMS)
+ * Guideline  : JTstyle.2.0
+ * Dependency : css/reset.css
+ *              css/jt-strap.css
+ *
+ * SUMMARY:
+ * 01) 1560px
+ * 02) 1200px
+ * 03) 1023px
+ * 04) 860px
+ * 05) 540px
+ */
+
+
+
+/* **************************************** *
+ * 1560px
+ * **************************************** */
+@media (max-width: 1560px) {
+
+    /* TYPO */
+    .jt-blocks h1,
+    .jt-blocks h2 { font-size: 27rem; line-height: 33rem; }
+    .jt-blocks h3 { font-size: 22rem; line-height: 28rem; }
+    .jt-blocks h4 { font-size: 19rem; line-height: 25rem; }
+    .jt-blocks h5,
+    .jt-blocks p,
+    .jt-blocks li:not(.blocks-gallery-item),
+    .jt-blocks .wp-block-quote p,
+    .jt-blocks blockquote.wp-block-quote.is-style-large p,
+    .jt-blocks .wp-block-table td,
+    .jt-blocks .wp-block-table th,
+    .jt-blocks .wp-block-code code { font-size: 17rem; line-height: 25rem; }
+
+    /* BUTTONS */
+    .jt-blocks .wp-block-button .wp-block-button__link { font-size: 17rem; line-height: 24rem; }
+
+    /* LIST */
+    .jt-blocks ul:not(.blocks-gallery-grid) > li:before { top: 9rem; }
+
+}
+
+
+
+/* **************************************** *
+ * 1200px
+ * **************************************** */
+@media (max-width: 1200px) {
+
+    /* TYPO */
+    .jt-blocks h1,
+    .jt-blocks h2 { font-size: 25rem; line-height: 30rem; }
+    .jt-blocks h3 { font-size: 20rem; line-height: 25rem; }
+    .jt-blocks h4 { font-size: 18rem; line-height: 24rem; }
+    .jt-blocks h5,
+    .jt-blocks p,
+    .jt-blocks li:not(.blocks-gallery-item),
+    .jt-blocks .wp-block-quote p,
+    .jt-blocks blockquote.wp-block-quote.is-style-large p,
+    .jt-blocks .wp-block-table td,
+    .jt-blocks .wp-block-table th,
+    .jt-blocks .wp-block-code code { font-size: 16rem; line-height: 23rem; }
+
+    /* BUTTONS */
+    .jt-blocks .wp-block-button .wp-block-button__link { padding: 7rem 36rem; font-size: 16rem; line-height: 23rem; }
+
+    /* LIST */
+    .jt-blocks ul:not(.blocks-gallery-grid) > li:before { width: 5rem; height: 5rem; }
+
+}
+
+
+
+/* **************************************** *
+ * 1023px
+ * **************************************** */
+@media (max-width: 1023px) {
+
+    /* TYPO */
+    .jt-blocks h1,
+    .jt-blocks h2 { font-size: 24rem; }
+    .jt-blocks h3 { font-size: 18rem; }
+    .jt-blocks h4 { font-size: 17rem; }
+    .jt-blocks h6,
+    .jt-blocks .wp-block-image figcaption,
+    .jt-blocks .wp-block-gallery.has-nested-images > figcaption,
+    .jt-blocks .wp-block-quote cite,
+    .jt-blocks blockquote.wp-block-quote.is-style-large cite,
+    .jt-blocks .wp-block-table figcaption { font-size: 14rem; line-height: 20rem; }
+
+    /* BUTTON */
+    .jt-blocks .wp-block-button .wp-block-button__link { padding: 7rem 32rem; font-size: 15rem; line-height: 20rem; }
+
+}
+
+
+
+/* **************************************** *
+ * 860px
+ * **************************************** */
+@media (max-width: 860px) {
+    
+    /* WRAP */
+    .jt-blocks h1,
+    .jt-blocks h2,
+    .jt-blocks h3,
+    .jt-blocks h4,
+    .jt-blocks h5,
+    .jt-blocks h6,
+    .jt-blocks p,
+    .jt-blocks ul:not(.blocks-gallery-grid), 
+    .jt-blocks ol:not(.blocks-gallery-grid),
+    .jt-blocks .wp-block-quote,
+    .jt-blocks .wp-block-table,
+    .jt-blocks .wp-block-code,
+    .jt-blocks .wp-block-separator,
+    .jt-blocks .wp-block-buttons { max-width: inherit; }
+
+    /* TYPO */
+    .jt-blocks h1, 
+    .jt-blocks h2 { font-size: 22rem; line-height: 28rem; }
+    .jt-blocks h3 { font-size: 17rem; line-height: 23rem; }
+    .jt-blocks h4 { font-size: 16rem; }
+    .jt-blocks h5,
+    .jt-blocks p,
+    .jt-blocks li:not(.blocks-gallery-item),
+    .jt-blocks .wp-block-quote p,
+    .jt-blocks blockquote.wp-block-quote.is-style-large p,
+    .jt-blocks .wp-block-table td,
+    .jt-blocks .wp-block-table th,
+    .jt-blocks .wp-block-code code { font-size: 15rem; line-height: 20rem; }
+    .jt-blocks h6,
+    .jt-blocks .wp-block-image figcaption,
+    .jt-blocks .wp-block-gallery.has-nested-images > figcaption,
+    .jt-blocks .wp-block-quote cite,
+    .jt-blocks blockquote.wp-block-quote.is-style-large cite,
+    .jt-blocks .wp-block-table figcaption { line-height: 19rem; }
+
+    /* BUTTONS */
+    .jt-blocks .wp-block-button .wp-block-button__link { padding: 6rem 26rem 7rem; }
+    .jt-blocks .wp-block-button .wp-block-button__link[target="_blank"]:after { width: 8rem; height: 8rem; }
+    html.ios .jt-blocks .wp-block-button .wp-block-button__link { padding-top: 8rem; padding-bottom: 6rem; }
+
+    /* LIST */
+    .jt-blocks ul:not(.blocks-gallery-grid) > li { padding-left: 12rem; }
+    .jt-blocks ul:not(.blocks-gallery-grid) > li:before { width: 4rem; height: 4rem; }
+
+    .jt-blocks ol:not(.blocks-gallery-grid) > li { padding-left: 16rem; }
+    .jt-blocks ol:not(.blocks-gallery-grid) > li:nth-child(n+10) { padding-left: 24rem; }
+
+    html.ios .jt-blocks ul:not(.blocks-gallery-grid) > li:before { top: 8rem; }
+
+    /* QUOTE */
+    .jt-blocks blockquote.wp-block-quote.is-style-large { padding: 0 0 0 16rem; }
+
+}
+
+
+
+/* **************************************** *
+ * 540px
+ * **************************************** */
+@media (max-width: 540px) {
+
+    :root {
+        --gallery-block--gutter-size: 14rem;
+    }
+
+    /* TYPO */
+    .jt-blocks h1,
+    .jt-blocks h2 { font-size: 23rem; line-height: 27rem; }
+    .jt-blocks h4 { line-height: 22rem; }
+
+    /* BLOCK SPACE */
+    .jt-blocks h1,
+    .jt-blocks h2 { margin-top: 48rem; margin-bottom: 14rem; }
+    .jt-blocks h3 { margin-top: 32rem; margin-bottom: 14rem; }
+    .jt-blocks h4 { margin-top: 32rem; margin-bottom: 14rem; }
+    .jt-blocks h5 { margin-top: 32rem; margin-bottom: 14rem; }
+    .jt-blocks h6 { margin-top: 32rem; margin-bottom: 14rem; }
+
+    .jt-blocks h1 + h2,
+    .jt-blocks h1 + h3,
+    .jt-blocks h1 + h4,
+    .jt-blocks h1 + h5,
+    .jt-blocks h1 + h6,
+    .jt-blocks h2 + h3,
+    .jt-blocks h2 + h4,
+    .jt-blocks h2 + h5,
+    .jt-blocks h2 + h6,
+    .jt-blocks h3 + h4,
+    .jt-blocks h3 + h5,
+    .jt-blocks h3 + h6,
+    .jt-blocks h4 + h5,
+    .jt-blocks h4 + h6,
+    .jt-blocks h5 + h6 { margin-top: 14rem; }
+
+    .jt-blocks p { margin-bottom: 32rem; }
+
+    .jt-blocks .wp-block-buttons { margin-top: 14rem; margin-bottom: 32rem; }
+
+    .jt-blocks ul:not(.blocks-gallery-grid),
+    .jt-blocks ol:not(.blocks-gallery-grid) { margin-bottom: 32rem; }
+    .jt-blocks li:not(.blocks-gallery-item) img,
+    .jt-blocks li:not(.blocks-gallery-item) img { margin: 14rem 0; }
+
+    .jt-blocks .wp-block-image {margin-top: 32rem; margin-bottom: 32rem; }
+    .jt-blocks .wp-block-image figcaption { margin-top: 12rem; }
+
+    .jt-blocks .wp-block-gallery { margin-top: 32rem; margin-bottom: calc(32rem - var(--gallery-block--gutter-size)); }
+    .jt-blocks .wp-block-gallery.has-nested-images > figcaption { margin-top: -2rem; }
+
+    .jt-blocks .wp-block-quote { margin-top: 14rem; margin-bottom: 32rem; }
+    .jt-blocks blockquote.wp-block-quote.is-style-large { margin-bottom: 32rem; }
+    .jt-blocks .wp-block-quote cite { margin-top: 12rem; }
+
+    .jt-blocks .wp-block-embed { margin-top: 32rem; margin-bottom: 32rem; }
+
+    .jt-blocks .wp-block-table { margin-top: 14rem; margin-bottom: 32rem; }
+    .jt-blocks .wp-block-table figcaption { margin-top: 12rem; }
+
+    .jt-blocks .wp-block-separator { margin-top: 48rem; margin-bottom: 48rem; }
+
+    .jt-blocks .wp-block-code { margin-top: 14rem; margin-bottom: 32rem; }
+
+    /* BUTTONS */
+    .jt-blocks .wp-block-button .wp-block-button__link { padding: 5rem 22rem 7rem; font-size: 14rem; }
+    html.ios .jt-blocks .wp-block-button .wp-block-button__link { padding-top: 7rem; padding-bottom: 5rem; }
+
+    /* LIST */
+    .jt-blocks li:not(.blocks-gallery-item) { margin-bottom: 6rem; }
+    .jt-blocks li:not(.blocks-gallery-item) ul, 
+    .jt-blocks li:not(.blocks-gallery-item) ol { margin: 6rem 0; }
+    
+    .jt-blocks ul:not(.blocks-gallery-grid) > li { padding-left: 10rem; }
+    .jt-blocks ul:not(.blocks-gallery-grid) > li:before { width: 4px; height: 4px; top: 8rem; }
+    
+    /* QUOTE */
+    .jt-blocks .wp-block-quote { padding: 26rem 0 0; }
+    .jt-blocks .wp-block-quote:before { width: 16rem; height: 13rem; }
+
+    .jt-blocks blockquote.wp-block-quote.is-style-large { padding: 0 0 0 14rem; border-left-width: 2rem; }
+
+    /* TABLE */
+    .jt-blocks .wp-block-table td, .jt-blocks .wp-block-table th { padding: 14rem 20rem; }
+
+    /* EMBED */
+    .jt-embed-video__overlay-btn { width: 60rem; height: 60rem; margin-top: -30rem; margin-left: -30rem; }
+    .jt-embed-video__overlay-btn:after { margin-top: -5rem; margin-left: -2rem; font-style: normal; border-top: 5rem solid transparent; border-bottom: 5rem solid transparent; border-left: 8rem solid var(--color-primary); }
+
+}

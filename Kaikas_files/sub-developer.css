@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+/*
+ * File       : sub-developer.css
+ * Author     : STUDIO-JT (MINYEO)
+ * Guideline  : JTstyle.2.0
+ *
+ * Dependency : css/reset.css
+ *              css/jt-strap.css
+ *
+ * SUMMARY:
+ * 01) LAYOUT
+ * 02) TOOLS
+ * 03) AMBASSADOR
+ */
+
+
+
+/* **************************************** *
+ * LAYOUT
+ * **************************************** */
+body.page-template-developer .article__scene-bg { width: 1903rem; height: 3305rem; right: auto; left: 0; }
+body.page-template-developer .article__scene-model { width: 776rem; height: 678rem; }
+
+
+
+/* **************************************** *
+ * TOOLS
+ * **************************************** */
+.developer-tools .jt-induce__typo { margin-bottom: 225rem; }
+
+
+
+/* **************************************** *
+ * AMBASSADOR
+ * **************************************** */
+.developer-ambassador__notice { margin-top: 40rem; padding: 40rem 40rem 40rem 74rem; position: relative; background: #111; border-radius: 20rem; }
+.developer-ambassador__notice .jt-icon { width: 24rem; position: absolute; left: 41rem; top: 41rem; }
+.developer-ambassador__notice .jt-icon path { fill: #bbb; }
+
+.developer-ambassador__notice p a { color: inherit; border-bottom: 1px solid rgba(255, 255, 255, 0.3); transition: border .3s; }
+html.desktop .developer-ambassador__notice p a:hover { border-bottom-color: #fff; }

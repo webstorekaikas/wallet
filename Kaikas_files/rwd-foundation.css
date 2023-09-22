@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+/*
+ * File       : rwd-foundation.css
+ * Author     : STUDIO-JT (KMS)
+ * Guideline  : JTstyle.2.0
+ * Dependency : css/reset.css
+ *              css/jt-strap.css
+ *
+ * SUMMARY:
+ * 01) 1560px
+ * 02) 1200px
+ * 03) 1023px
+ * 04) 860px
+ * 05) 540px
+ */
+
+
+
+/* **************************************** *
+ * 1560px
+ * **************************************** */
+@media (max-width: 1560px) {
+
+    /* LAYOUT */
+    body.page-template-foundation .article__scene-model { width: 669rem; height: 567rem; }
+
+    .page-section.foundation-governance { padding-bottom: 230rem; }
+
+}
+
+
+
+/* **************************************** *
+ * 1200px
+ * **************************************** */
+@media (max-width: 1200px) {
+
+    /* LAYOUT */
+    body.page-template-foundation .article__scene-model { width: 478rem; height: 405rem; }
+
+    .page-section.foundation-governance { padding-bottom: 180rem; }
+
+    /* GOVERNANCE */
+    .foundation-governance__group + .foundation-governance__group { margin-top: 22rem; }
+    .foundation-governance__item { margin: 0 10rem; padding: 22rem 30rem; }
+    .foundation-governance__logo { width: 30rem; }
+
+}
+
+
+
+/* **************************************** *
+ * 1023px
+ * **************************************** */
+@media (max-width: 1023px) {
+
+    /* LAYOUT */
+    body.page-template-foundation .article__scene-model { width: 430rem; height: 365rem; }
+
+    .page-section.foundation-klaytnis { padding-bottom: 65rem; }
+    .page-section.foundation-vision { padding-bottom: 65rem; }
+    .page-section.foundation-governance { padding-bottom: 160rem; }
+
+    /* GOVERNANCE */
+    .foundation-governance__list { margin-bottom: 65rem; }
+    .foundation-governance__group + .foundation-governance__group { margin-top: 18rem; }
+    .foundation-governance__item { margin: 0 6rem; padding: 18rem 28rem; gap: 10rem; }
+    .foundation-governance__logo { width: 28rem; }
+
+}
+
+
+
+/* **************************************** *
+ * 860px
+ * **************************************** */
+@media (max-width: 860px) {
+
+    /* LAYOUT */
+    body.page-template-foundation .article__scene-model { width: 347rem; height: 294rem; }
+
+    .page-section.foundation-klaytnis { padding-bottom: 60rem; }
+    .page-section.foundation-vision { padding-bottom: 60rem; }
+    .page-section.foundation-governance { padding-bottom: 130rem; }
+
+    /* GOVERNANCE */
+    .foundation-governance__list { margin-bottom: 60rem; }
+    .foundation-governance__group + .foundation-governance__group { margin-top: 14rem; }
+    .foundation-governance__item { margin: 0 5rem; padding: 14rem 22rem; gap: 8rem; }
+    .foundation-governance__logo { width: 25rem; }
+
+    html.ios .foundation-governance__item { padding-top: 15rem; padding-bottom: 14rem; }
+
+}
+
+
+
+/* **************************************** *
+ * 540px
+ * **************************************** */
+@media (max-width: 540px) {
+
+    /* LAYOUT */
+    body.page-template-foundation .article__scene-model { width: 260rem; height: 220rem; }
+
+    .page-section.foundation-klaytnis { padding-bottom: 48rem; }
+    .page-section.foundation-vision { padding-bottom: 48rem; }
+    .page-section.foundation-governance { padding-bottom: 100rem; }
+
+    /* GOVERNANCE */
+    .foundation-governance__list { margin-bottom: 48rem; }
+    .foundation-governance__item { padding: 12rem 22rem; }
+    .foundation-governance__logo { width: 24rem; }
+
+}

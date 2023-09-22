@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+/*
+ * File       : rwd-blog.css
+ * Author     : STUDIO-JT (KMS)
+ * Guideline  : JTstyle.2.0
+ * Dependency : css/reset.css
+ *              css/jt-strap.css
+ *
+ * SUMMARY:
+ * 01) 1560px
+ * 02) 1200px
+ * 03) 1023px
+ * 04) 860px
+ * 05) 540px
+ */
+
+
+
+/* **************************************** *
+ * 1560px
+ * **************************************** */
+@media (max-width: 1560px) {
+
+    /* LAYOUT */
+    body.page-template-blog .article__scene-model { width: 506rem; height: 606rem; }
+
+}
+
+
+
+/* **************************************** *
+ * 1200px
+ * **************************************** */
+@media (max-width: 1200px) {
+
+    /* LAYOUT */
+    body.page-template-blog .article__scene-model { width: 430rem; height: 515rem; }
+
+    /* HIGHLIGHT */
+    .blog-highlight__card { padding: 32rem 0; }
+
+    .blog-highlight__thumb { width: calc(50% - 32rem); }
+
+    .blog-highlight__text { width: calc(50% + 32rem); }
+    .blog-highlight__text .blog-highlight__link { padding: 0 32rem; }
+    .blog-highlight__text .jt-list-meta { margin-top: 22rem; padding: 0 32rem; }
+
+    /* INSIGHT */
+    .blog-insight__list > ul { gap: 32rem; }
+    .blog-insight__list > ul > li { width: calc((100% - 64rem)/3); }
+
+    .blog-insight__content { padding: 32rem; }
+    .blog-insight__date { margin-top: 22rem; }
+    .blog-insight__content .jt-icon { right: 32rem; bottom: 34rem; }
+
+}
+
+
+
+/* **************************************** *
+ * 1023px
+ * **************************************** */
+@media (max-width: 1023px) {
+
+    /* LAYOUT */
+    body.page-template-blog .article__scene-model { width: 387rem; height: 463rem; }
+
+    /* HIGHLIGHT */
+    .blog-highlight__card { padding: 28rem 0; }
+
+    .blog-highlight__thumb { width: calc(50% - 28rem); }
+
+    .blog-highlight__text { width: calc(50% + 28rem); }
+    .blog-highlight__text .blog-highlight__link { padding: 0 28rem; }
+    .blog-highlight__text .jt-list-meta { margin-top: 20rem; padding: 0 28rem; }
+
+    /* INSIGHT */
+    .blog-insight__list > ul { gap: 28rem; }
+    .blog-insight__list > ul > li { width: calc((100% - 56rem)/3); }
+
+    .blog-insight__content { padding: 28rem; }
+    .blog-insight__date { margin-top: 20rem; }
+    .blog-insight__content .jt-icon { right: 28rem; bottom: 30rem; }
+
+}
+
+
+
+/* **************************************** *
+ * 860px
+ * **************************************** */
+@media (max-width: 860px) {
+
+    /* LAYOUT */
+    body.page-template-blog .article__scene-model { width: 303rem; height: 363rem; }
+
+    /* HIGHLIGHT */
+    .blog-highlight__text .blog-highlight__link { padding: 0 0 0 22rem; }
+    .blog-highlight__desc { margin-top: 14rem; -webkit-line-clamp: 3; }
+    .blog-highlight__text .jt-list-meta { margin-top: 16rem; padding: 0 0 0 22rem; }
+
+    /* INSIGHT */
+    .blog-insight__list > ul { gap: 16rem; }
+    .blog-insight__list > ul > li { width: calc((100% - 32rem)/3); }
+
+    .blog-insight__content { padding: 22rem; }
+    .blog-insight__date { margin-top: 18rem; }
+    .blog-insight__content .jt-icon { width: 8rem; right: 22rem; bottom: 24rem; }
+
+}
+
+
+
+/* **************************************** *
+ * 540px
+ * **************************************** */
+@media (max-width: 540px) {
+
+    /* LAYOUT */
+    body.page-template-blog .article__scene-model { width: 212rem; height: 254rem; }
+
+    /* HIGHLIGHT */
+    .blog-highlight__card { display: block; padding: 0; border: none; }
+
+    .blog-highlight__thumb { width: 100%; }
+
+    .blog-highlight__text { width: 100%; }
+    .blog-highlight__text .blog-highlight__link { padding: 22rem 0 0; }
+    .blog-highlight__desc { margin-top: 10rem; }
+    .blog-highlight__text .jt-list-meta { margin-top: 14rem; padding: 0; }
+
+    /* INSIGHT */
+    .blog-insight__list { margin: 0 -14rem; }
+    .blog-insight__list > ul { gap: 0; flex-wrap: nowrap; justify-content: flex-start; }
+    .blog-insight__list > ul > li { width: 250rem; margin-left: 14rem; }
+    .blog-insight__list > ul > li:last-child { margin-right: 14rem; }
+    .blog-insight__content { padding: 20rem; }
+    .blog-insight__date { margin-top: 12rem; }
+    .blog-insight__content .jt-icon { right: 20rem; bottom: 23rem; }
+
+    html.ios .blog-insight__content .jt-icon { bottom: 24rem; }
+
+}

@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+/*
+ * File       : sub-ecosystem.css
+ * Author     : STUDIO-JT (Hree)
+ * Guideline  : JTstyle.2.0
+ *
+ * Dependency : css/reset.css
+ *              css/jt-strap.css
+ *
+ * SUMMARY:
+ * 01) LAYOUT
+ * 02) ONCHAIN
+ * 03) PROJECT
+ * 04) BANNER
+ * 05) SINGLE
+ */
+
+
+
+/* **************************************** *
+ * LAYOUT
+ * **************************************** */
+body.page-template-ecosystem .main-container { padding-bottom: 0; }
+body.page-template-ecosystem .article__scene-model { width: 1067rem; height: 594rem; }
+
+
+
+/* **************************************** *
+ * ONCHAIN
+ * **************************************** */
+.ecosystem-onchain__data { display: grid; gap: 36rem; grid-template-columns: 1fr 1fr; }
+.ecosystem-onchain__data-item > * { display: block; padding: 39rem 82rem 39rem 39rem; position: relative; border: 1rem solid var(--color-base-line); border-radius: 20rem; }
+.ecosystem-onchain__data-item > * > b { display: block; position: relative; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; color: var(--color-base); }
+.ecosystem-onchain__data-item > * > span { display: block; margin-top: 20rem; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; color: var(--color-base); }
+.ecosystem-onchain__data-item > * > .jt-icon { width: 25rem; position: absolute; top: 49rem; right: 38rem; }
+.ecosystem-onchain__data-item > * > .jt-icon path { transition: fill .3s; }
+.ecosystem-onchain__data-item > a:before { content: ''; width: 100%; height: 10rem; position: absolute; right: 0; top: -10rem; opacity: 0; visibility: hidden; transition: opacity .3s, visibility .3s; }
+.ecosystem-onchain__data-item > a:after { content: attr(data-tooltip); padding: 8rem 16rem; position: absolute; right: 0; top: -10rem; font-size: 14rem; line-height: 20rem; font-weight: 400; letter-spacing: var(--letter-spacing); word-break: break-all; color: var(--color-base); background: #000; border-radius: 8rem; transform: translateY(-100%); opacity: 0; visibility: hidden; transition: opacity .3s, visibility .3s; }
+
+html.desktop .ecosystem-onchain__data-item > a:hover > .jt-icon path { fill: var(--color-primary); }
+html.desktop .ecosystem-onchain__data-item > a:hover:before, html.desktop .ecosystem-onchain__data-item > a:hover:after { opacity: 1; visibility: visible; }
+
+.ecosystem-onchain__loading { width: 4rem; height: 4rem; position: absolute; left: 0; top: 50%; transform: translateY(-50%); }
+.ecosystem-onchain__loading > i { display: block; width: 4rem; height: 4rem; position: absolute; top: 50%; transform: translateY(-50%); background: #fff; animation: loading-bar 1.5s ease-in-out infinite; }
+.ecosystem-onchain__loading > i:nth-child(1) { left: 0; animation-delay: .2s; }
+.ecosystem-onchain__loading > i:nth-child(2) { left: 8rem; animation-delay: .4s; }
+.ecosystem-onchain__loading > i:nth-child(3) { left: 16rem; animation-delay: .6s; }
+
+
+
+/* **************************************** *
+ * PROJECT
+ * **************************************** */
+.page-section.ecosystem-project { padding-top: 0; padding-bottom: 0; }
+
+.ecosystem-project__bg { width: 990rem; position: absolute; top: -167rem; left: 0; mix-blend-mode: lighten; }
+.ecosystem-project__bg .jt-lazyload { padding-top: 100%; }
+
+/* LIST */
+.ecosystem-project .jt-card-list__item { height: 310rem; }
+
+
+
+/* **************************************** *
+ * BANNER
+ * **************************************** */
+.page-section.ecosystem-banner { padding: 60rem 0; }
+
+.ecosystem-banner__wrapper { display: flex; justify-content: space-between; align-items: center; column-gap: 40rem;}
+.ecosystem-banner__btn { flex-shrink: 0; }
+
+
+
+/* **************************************** *
+ * SINGLE
+ * **************************************** */
+body.single-project .jt-single__content { margin-bottom: 0; padding-bottom: 80rem; }
+body.single-project .jt-single__header { padding-right: 240rem; }
+
+/* HEADER INFORMATION */
+.single-ecosystem__info { padding-left: 86rem; position: relative; }
+
+.single-ecosystem__thumb { width: 70rem; position: absolute; left: 0; top: 6rem; border-radius: 50%; overflow: hidden; }
+.single-ecosystem__thumb .jt-lazyload { padding-top: 100%; }
+
+/* REPORT */
+.single-ecosystem__report { display: inline-block; margin-top: 60rem; padding: 3rem 20rem; font-size: 0; color: inherit; background: var(--color-base-bg); border: 1rem solid var(--color-base-line); border-radius: 100rem; outline: none; transition: background-color .3s, border .3s; cursor: pointer; }
+.single-ecosystem__report span { vertical-align: middle; }
+.single-ecosystem__report > .jt-icon { display: inline-block; vertical-align: middle; width: 24rem; margin-right: 4rem; position: relative; }
+
+html.desktop .single-ecosystem__report:hover { background: var(--color-primary); border-color: var(--color-primary); }
+
+html.ios .single-ecosystem__report { padding-bottom: 5rem; }
+
+/* REPORT POPUP  */
+#ecosystem-report-login .jt-layer-popup__content p { text-align: center; }
+#ecosystem-report-login .jt-layer-popup__content p br { display: none; }
+#ecosystem-report-login .jt-btn__basic.jt-btn--icon-twitter { color: var(--color-base); background: #00ACED; border-color: #00ACED; }
+#ecosystem-report-login .jt-btn__basic.jt-btn--icon-twitter .jt-btn__basic-icon svg path { fill: var(--color-base) }
+
+#ecosystem-report-form .jt-layer-popup__content > p { margin-top: 8rem; }
+#ecosystem-report-form .jt-form { margin-top: 40rem; }
+#ecosystem-report-form .jt-form .jt-layer-popup__action { margin-top: 16rem; }

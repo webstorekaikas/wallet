@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+/*
+ * File       : sub-foundation.css
+ * Author     : STUDIO-JT (Hree)
+ * Guideline  : JTstyle.2.0
+ *
+ * Dependency : css/reset.css
+ *              css/jt-strap.css
+ *
+ * SUMMARY:
+ * 01) LAYOUT
+ * 02) GOVERNANCE
+ */
+
+
+
+/* **************************************** *
+ * LAYOUT
+ * **************************************** */
+body.page-template-foundation .main-container { padding-bottom: 0; }
+body.page-template-foundation .article__scene-model { width: 955rem; height: 810rem; }
+
+/* SECTIONS */
+.page-section.foundation-klaytnis { padding-bottom: 80rem; }
+.page-section.foundation-vision { padding-top: 0; padding-bottom: 80rem; }
+.page-section.foundation-grant { padding-top: 0; }
+.page-section.foundation-governance { padding-bottom: 260rem; background: rgba(17, 17, 17, 0.6); }
+
+
+
+/* **************************************** *
+ * GOVERNANCE
+ * **************************************** */
+/* GC */
+.foundation-governance__list { margin-bottom: 80rem; }
+
+.foundation-governance__group { font-size: 0; }
+.foundation-governance__group + .foundation-governance__group { margin-top: 24rem; }
+
+.foundation-governance__item { display: inline-flex; align-items: center; gap: 12rem; margin: 0 12rem; padding: 24rem 32rem; background: rgba(255, 255, 255, 0.05); border-radius: 8rem; opacity: 0.9; }
+.foundation-governance__logo { width: 32rem; border-radius: 50%; overflow: hidden; }
+.foundation-governance__logo .jt-lazyload { padding-top: 100%; }
+
+/* SHORTCUT */
+.foundation-governance .jt-shortcut > li { background: transparent; }

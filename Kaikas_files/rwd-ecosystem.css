@@ -1,0 +1,199 @@
+@charset "utf-8";
+
+/*
+ * File       : rwd-foundation.css
+ * Author     : STUDIO-JT (HREE)
+ * Guideline  : JTstyle.2.0
+ * Dependency : css/reset.css
+ *              css/jt-strap.css
+ *
+ * SUMMARY:
+ * 01) 1560px
+ * 02) 1200px
+ * 03) 1023px
+ * 04) 860px
+ * 05) 540px
+ */
+
+
+
+/* **************************************** *
+ * 1560px
+ * **************************************** */
+@media (max-width: 1560px) {
+
+    /* LAYOUT */
+    body.page-template-ecosystem .article__scene-model { width: 811rem; height: 452rem; }
+
+    /* PROJECT */
+    .ecosystem-project__bg { width: 860rem; top: -140rem; }
+
+    /* SINGLE */
+    .single-ecosystem__thumb { top: 0; }
+
+}
+
+
+
+/* **************************************** *
+ * 1200px
+ * **************************************** */
+ @media (max-width: 1200px) {
+
+    /* LAYOUT */
+    body.page-template-ecosystem .article__scene-model { width: 649rem; height: 362rem; }
+
+    /* ONCHAIN */
+    .ecosystem-onchain__data { gap: 32rem; }
+    .ecosystem-onchain__data-item > * { padding: 32rem 72rem 32rem 32rem; }
+    .ecosystem-onchain__data-item > * > span { margin-top: 16rem; }
+    .ecosystem-onchain__data-item > * > .jt-icon { width: 22rem; top: 42rem; right: 32rem; }
+
+    /* PROJECT */
+    .ecosystem-project__bg { width: 770rem; top: -120rem; left: -140rem; }
+
+    .ecosystem-project .jt-card-list__item { height: 279rem; }
+
+    /* SINGLE */
+    body.single-project .jt-single__header { padding-right: 210rem; }
+
+    .single-ecosystem__info { padding-left: 80rem; }
+    .single-ecosystem__thumb { width: 63rem; }
+
+    #ecosystem-report-form .jt-form { margin-top: 30rem; }
+    #ecosystem-report-form .jt-layer-popup__content > p { margin-top: 6rem; }
+
+}
+
+
+
+/* **************************************** *
+ * 1023px
+ * **************************************** */
+ @media (max-width: 1023px) {
+
+    /* LAYOUT */
+    body.page-template-ecosystem .article__scene-model { width: 522rem; height: 307rem; }
+    
+    /* ONCHAIN */
+    .ecosystem-onchain__data { gap: 24rem; }
+    .ecosystem-onchain__data-item > * { padding-top: 30rem; padding-bottom: 30rem; }
+    .ecosystem-onchain__data-item > * > .jt-icon { width: 20rem; top: 39rem; right: 32rem; }
+
+    /* PROJECT */
+    .ecosystem-project__bg { width: 700rem; left: -170rem; }
+
+    .ecosystem-project .jt-card-list__item { height: 257rem; }
+
+    /* BANNER */
+    .page-section.ecosystem-banner { padding: 46rem 20rem; }
+
+    .ecosystem-banner__wrapper { column-gap: 36rem; }
+
+    /* SINGLE */
+    body.single-project .jt-single__header { padding-right: 180rem; }
+    body.single-project .jt-single__content { padding-bottom: 68rem; }
+
+    .single-ecosystem__info { padding-left: 75rem; }
+    .single-ecosystem__thumb { width: 58rem; }
+
+    .single-ecosystem__report { margin-top: 48rem; padding-left: 18rem; padding-right: 18rem; }
+
+}
+
+
+
+/* **************************************** *
+ * 860px
+ * **************************************** */
+ @media (max-width: 860px) {
+
+    /* LAYOUT */
+    body.page-template-ecosystem .article__scene-model { width: 443rem; height: 261rem; }
+
+    /* ONCHAIN */
+    .ecosystem-onchain__data { gap: 16rem; }
+    .ecosystem-onchain__data-item > * { padding: 26rem 60rem 26rem 24rem; }
+    .ecosystem-onchain__data-item > * > span { margin-top: 12rem; }
+    .ecosystem-onchain__data-item > * > .jt-icon { width: 16rem; top: 32rem; right: 24rem; }
+
+    /* PROJECT */
+    .ecosystem-project__bg { width: 660rem; top: -90rem; }
+
+    .ecosystem-project .jt-card-list__item { height: 219rem; }
+    
+    /* BANNER */
+    .page-section.ecosystem-banner { padding: 38rem 20rem; }
+
+    .ecosystem-banner__wrapper { column-gap: 32rem; }
+
+    /* SINGLE */
+    body.single-project .jt-single__header { padding-right: 160rem; }
+
+    .single-ecosystem__info { padding-left: 66rem; }
+    .single-ecosystem__thumb { width: 50rem; }
+
+    .single-ecosystem__report { padding: 2rem 18rem 5rem 15rem; }
+    .single-ecosystem__report > .jt-icon { width: 20rem; margin-right: 3rem; top: 1rem; }
+    html.ios .single-ecosystem__report { padding-top: 3rem; padding-bottom: 4rem; }
+    html.ios .single-ecosystem__report > .jt-icon { top: -1rem; }
+
+    #ecosystem-report-form .jt-form { margin-top: 28rem; }
+
+}
+
+
+
+/* **************************************** *
+ * 540px
+ * **************************************** */
+ @media (max-width: 540px) {
+
+    /* LAYOUT */
+    body.page-template-ecosystem .article__scene-model { width: 288rem; height: 170rem; }
+
+    /* ONCHAIN */
+    .ecosystem-onchain__data { grid-template-columns: 1fr; gap: 14rem; }
+    .ecosystem-onchain__data-item > * { padding: 18rem 52rem 18rem 18rem; border-radius: 12rem; }
+    .ecosystem-onchain__data-item > * > span { margin-top: 8rem; }
+    .ecosystem-onchain__data-item > * > .jt-icon { width: 14rem; top: 23rem; right: 20rem; }
+    .ecosystem-onchain__data-item > a:before, .ecosystem-onchain__data-item > a:after { display: none; }
+
+    .ecosystem-onchain__loading { transform: scale(0.8) translateY(-50%); }
+
+    html.ios .ecosystem-onchain__data-item > * { padding-top: 19rem; padding-bottom: 17rem; }
+
+    /* PROJECT */
+    .ecosystem-project__bg { display: none; }
+
+    .ecosystem-project .jt-card-list__item { height: 197rem; }
+
+    /* BANNER */
+    .page-section.ecosystem-banner { padding: 36rem 14rem; }
+
+    .ecosystem-banner__wrapper { flex-wrap: wrap; row-gap: 14rem; }
+    .ecosystem-banner__text { text-align: center; }
+    .ecosystem-banner__text br { display: none; }
+    .ecosystem-banner__btn { margin: 0 auto; }
+
+    /* SINGLE */
+    body.single-project .jt-single__header { padding-right: 0; }
+    body.single-project .jt-single__content { padding-bottom: 55rem; }
+
+    .single-ecosystem__info { padding-left: 50rem; }
+    .single-ecosystem__thumb { width: 38rem; }
+    .single-ecosystem__info .jt-single__title { padding-top: 3rem; }
+    html.ios .single-ecosystem__info .jt-single__title { padding-top: 2rem; }
+
+    .single-ecosystem__report { margin-top: 38rem; }
+    html.android .single-ecosystem__report { padding-top: 4rem; padding-bottom: 3rem; }
+    html.android .single-ecosystem__report > .jt-icon { top: -1rem; }
+    html.ios .single-ecosystem__report { padding-top: 4rem; padding-bottom: 3rem; }
+
+    #ecosystem-report-form .jt-form { margin-top: 20rem; }
+
+    #ecosystem-report-login .jt-layer-popup__content p br { display: block; }
+    #ecosystem-report-login .jt-layer-popup__action { flex-wrap: wrap; gap: 12rem; }
+    #ecosystem-report-login .jt-layer-popup__action > * { width: 100%; }
+
+}
